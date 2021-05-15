@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+.main {
+  background: #cb2d3e;
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginDialog {
+  background: rgba(0, 0, 0, 0.753);
+  padding: 4rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.322), 0px 0px 20px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  h4 {
+    font-size: 3.2rem;
+    font-family: "Titillium Web", sans-serif;
+    margin: 2rem;
+  }
+}
+
+.logoClass {
+  width: 9.1rem;
+  height: 9.1rem;
+}
+
+.user,
+.pass {
+  background-color: black;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 2rem;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+  span {
+    flex: 1;
+    margin-right: -0.7rem;
+    font-size: 2rem;
+  }
+  input {
+    flex: 3;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+}
+.button {
+  padding: 0.5rem 1.5rem;
+  color: white;
+  background-color: black;
+
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid white;
+  outline: none;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
